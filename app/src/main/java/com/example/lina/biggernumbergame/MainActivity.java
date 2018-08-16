@@ -53,10 +53,10 @@ public class MainActivity extends AppCompatActivity {
         TextView p = (TextView) findViewById(R.id.points_field);
         if(rand2>rand1){
             count ++;
-            Toast.makeText(this,"shatra ya mama", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Great Job!", Toast.LENGTH_SHORT).show();
         }else {
             count --;
-            Toast.makeText(this,"fashla ya mama", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"You SUCK", Toast.LENGTH_SHORT).show();
         }     p.setText("Points:"+Integer.toString(count));
         PickRandomNumbers();
     }
